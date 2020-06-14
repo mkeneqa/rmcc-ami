@@ -12,10 +12,13 @@ This python script indexes and downloads the meta-data for all the available aud
  - [ ] Option to rename audio files
 
 ## Get Started
-1. `python3 -m venv env` (unix) or `py -m venv env` (win)
-2. Activating on UNIX: `source env/bin/activate` WIN: `.\env\Scripts\activate`
-3. optional: `python -m pip install --upgrade pip`
-4. `python -m pip install -r requirements.txt`
+1. `git clone https://github.com/mkeneqa/rmcc-audio-archiver.git`
+2. `python3 -m venv env` (unix) or `py -m venv env` (win)
+3. Activate Environment:
+     - **UNIX**: `source env/bin/activate` 
+     - **WINDOWS**: `.\env\Scripts\activate`
+4. **Optional:** `python -m pip install --upgrade pip`
+5. `python -m pip install -r requirements.txt`
 
 ## Commands
 ##### Fetch and Save Audio Archive Meta-data to `json.db` file

@@ -19,6 +19,7 @@ This python script indexes and downloads the meta-data for all the available aud
    - **WINDOWS**: `.\env\Scripts\activate`
 4. **Optional:** `python -m pip install --upgrade pip`
 5. `python -m pip install -r requirements.txt`
+6. **Optional:** To deactivate virtual environment; within the project directory type `deactivate`
 
 ## Commands
 ##### Fetch and Save Audio Archive Meta-data to `json.db` file

@@ -1,0 +1,4 @@
+fire
+requests
+beautifulsoup4
+tinydb

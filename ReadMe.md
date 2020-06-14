@@ -13,12 +13,15 @@ This python script indexes and downloads the meta-data for all the available aud
 
 ## Get Started
 1. `git clone https://github.com/mkeneqa/rmcc-audio-archiver.git`
-2. `python3 -m venv env` (unix) or `py -m venv env` (win)
+2. Create python virtual environment:
+    - **UNIX**: `python3 -m venv env`
+    - **WINDOWS**: `py -m venv env`
 3. Activate Environment:
-     - **UNIX**: `source env/bin/activate` 
-     - **WINDOWS**: `.\env\Scripts\activate`
+    - **UNIX**: `source env/bin/activate` 
+    - **WINDOWS**: `.\env\Scripts\activate`
 4. **Optional:** `python -m pip install --upgrade pip`
 5. `python -m pip install -r requirements.txt`
+6. **Optional:** To deactivate virtual environment; within the project directory type `deactivate`
 
 ## Commands
 ##### Fetch and Save Audio Archive Meta-data to `json.db` file

@@ -14,7 +14,7 @@ This python script indexes and downloads the meta-data for all the available aud
  - [ ] Option to rename audio files
 
 ## Get Started
-1. `git clone https://github.com/mkeneqa/rmcc-audio-archiver.git`
+1. `git clone https://github.com/mkeneqa/rmcc-ami.git`
 2. Create python virtual environment:
     - **UNIX**: `python3 -m venv env`
     - **WINDOWS**: `py -m venv env`

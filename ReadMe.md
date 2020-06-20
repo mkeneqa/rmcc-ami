@@ -1,6 +1,8 @@
-## RMCC Audio Archiver
+## RMCC Audio Message Index
 
-The [RMCC Church](https://calvarychapel.ca/) has some great messages publically available on their website but navigating the message archive can seem daunting at times when looking for a specific set of messages to follow.
+This is an unofficial Audio Message Index for the [RMCC Chruch](https://messages.calvarychapel.ca/). I needed an easy way to find messages by date and topic.
+
+The [RMCC Church](https://messages.calvarychapel.ca/) has some great messages publically available on their website but navigating the message archive can seem daunting at times when looking for a specific set of messages to follow.
 
 This python script indexes and downloads the meta-data for all the available audio messages on the [RMCC Audio Archive](https://messages.calvarychapel.ca/) and saves them in the `db.json` file which is generated and utilized by **[TinyDB]([https://tinydb.readthedocs.io/en/latest/index.html#])**
 
